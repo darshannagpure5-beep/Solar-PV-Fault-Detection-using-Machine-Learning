@@ -15,12 +15,10 @@ st.info('This app predicts the fault type in Solar PV Panels using Machine Learn
 
 with st.expander('Data'):
 
-    file_path = r"C:\\Users\\darsh\\OneDrive\\Desktop\\Machine_learning_projects\\solar_pv_fault_dataset_500.xlsx"
-
-    # df = pd.read_excel(file_path)
+    
 
     st.write('**Raw data**')
-    df = pd.read_excel(file_path)
+    df = pd.read_excel("solar_pv_fault_dataset_500.xlsx")
     st.write(df)
 
     st.write('**X**')
@@ -218,3 +216,4 @@ importance_df = pd.DataFrame({
 importance_df = importance_df.sort_values(by="Importance", ascending=False)
 
 st.bar_chart(importance_df.set_index("Feature"))
+
