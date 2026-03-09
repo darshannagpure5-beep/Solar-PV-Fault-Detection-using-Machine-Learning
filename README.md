@@ -1,2 +1,2 @@
-# Solar-PV-Fault-Detection-using-Machine-Learning
-This project analyzes solar panel operational data using Python, SQL, and a Random Forest model to detect six types of panel faults. A Streamlit web app provides real-time predictions with accuracy and feature insights, while a Power BI dashboard visualizes performance and fault distribution.
+# Solar PV Fault Detection using Machine Learning
+## This project focuses on detecting faults in Solar Photovoltaic (PV) panels using data analysis, SQL, machine learning, and interactive dashboards. The goal is to analyze solar panel operational data and automatically identify faults that can reduce system efficiency. The project follows a complete end-to-end data science workflow including data exploration, SQL analysis, machine learning model development, web application deployment using Streamlit, and visualization using Power BI.
